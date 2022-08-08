@@ -15,7 +15,7 @@ They look as follow:
 In this tutorial i will use the TurtleBot3 World.
 
 ## Setup
-This command is for ROS neotic, first in the triminal use the following commands:
+This command is for ROS neotic, in the triminal type the following commands:
 ```
 $ sudo apt update
 $ sudo apt upgrade
@@ -74,7 +74,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_house.launch
 SLAM in gazebo simulation is similar to actual TurtleBot3 SLAM.
 ### Launch Simulation World
 you can run it using the the last two enviroments, and for the TURTLEBOT3_MODEL you can choose any of the three models.
-I choose world enviroment and burger model.
+I choose the world enviroment and burger model.
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
@@ -82,8 +82,9 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 This will show the following:
 
 <img src="https://user-images.githubusercontent.com/108296165/183520698-dd6386f7-9508-4ae7-aea5-392c9474457b.png" width="600" height="400">
+
 ### Run SLAM Node
-open a new terminal, and type the following commands.
+open a new terminal, and type the following commands:
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
@@ -93,7 +94,7 @@ This will show the following:
 <img src="https://user-images.githubusercontent.com/108296165/183521855-d3c3eabe-3401-4002-8ed2-0451bd81a619.png" width="600" height="400">
 
 ## Run Teleoperation Node
-also here open a new terminal, and type the following commands. 
+open a new terminal, and type the following commands. 
 
 ```
 $ export TURTLEBOT3_MODEL=burger
