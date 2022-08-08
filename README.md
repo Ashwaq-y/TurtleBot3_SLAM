@@ -50,7 +50,7 @@ $ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulation
 $ cd ~/catkin_ws && catkin_make
 ```
 ### Launch Simulation World
-As we saw before there is three Gazebo environments.
+As we said before there are three Gazebo environments.
 ### 1.Empty world 
 ```
 $ export TURTLEBOT3_MODEL=burger
@@ -94,12 +94,14 @@ This will show the following:
 <img src="https://user-images.githubusercontent.com/108296165/183521855-d3c3eabe-3401-4002-8ed2-0451bd81a619.png" width="600" height="400">
 
 ## Run Teleoperation Node
-open a new terminal, and type the following commands. 
+open a new terminal, and type the following commands: 
 
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+This will show the following:
+
 <img src="https://user-images.githubusercontent.com/108296165/183522291-d138d404-402a-405c-87d5-66db1167926c.png" width="600" height="400">
 
 Then you can type the showed keys to move the robot around in the simulator, so you can draw the full map of the place, and after finshing it the result will be as follow:
