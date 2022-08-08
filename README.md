@@ -1,4 +1,4 @@
-# TurtleBot SLAM
+# TurtleBot3 SLAM
 In this repository I will show the steps of using TurtleBot3 SLAM Simulation.
 In TurtleBot3 they provide three Gazebo environments Empty World, TurtleBot3 World and TurtleBot3 House but for the SLAM simulation you can use the last two.
 
