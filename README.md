@@ -83,7 +83,7 @@ This will show the following:
 
 <img src="https://user-images.githubusercontent.com/108296165/183520698-dd6386f7-9508-4ae7-aea5-392c9474457b.png" width="600" height="400">
 
-## Run SLAM Node
+### Run SLAM Node
 open a new terminal, and type the following commands:
 ```
 $ export TURTLEBOT3_MODEL=burger
@@ -93,7 +93,7 @@ This will show the following:
 
 <img src="https://user-images.githubusercontent.com/108296165/183521855-d3c3eabe-3401-4002-8ed2-0451bd81a619.png" width="600" height="400">
 
-## Run Teleoperation Node
+### Run Teleoperation Node
 open a new terminal, and type the following commands: 
 
 ```
@@ -108,7 +108,7 @@ Then you can type the showed keys to move the robot around in the simulator, so 
 
 <img src="https://user-images.githubusercontent.com/108296165/183522662-9c035c61-be78-4948-871d-c840e95f9a50.png" width="600" height="400">
 
-## Save Map
+### Save Map
 you can save the map using the following commands:
 ```
 $ rosrun map_server map_saver -f ~/map
