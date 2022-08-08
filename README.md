@@ -113,7 +113,7 @@ you can save the map using the following commands:
 ```
 $ rosrun map_server map_saver -f ~/map
 ```
-it can be saved as following:
+it can be saved as image as follow:
 
 <img src="https://user-images.githubusercontent.com/108296165/183522957-8dd2790b-68b7-4609-a53a-91188edf85a1.png" width="600" height="400">
 
