@@ -102,7 +102,7 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 <img src="https://user-images.githubusercontent.com/108296165/183522291-d138d404-402a-405c-87d5-66db1167926c.png" width="600" height="400">
 
-Then you can type the showed command to move the robot around in the simulator, so you can can draw the full map of the place, and after finshing it the result will be as follow:
+Then you can type the showed keys to move the robot around in the simulator, so you can can draw the full map of the place, and after finshing it the result will be as follow:
 
 <img src="https://user-images.githubusercontent.com/108296165/183522662-9c035c61-be78-4948-871d-c840e95f9a50.png" width="600" height="400">
 
