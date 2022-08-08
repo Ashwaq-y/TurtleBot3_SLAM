@@ -83,7 +83,7 @@ This will show the following:
 
 <img src="https://user-images.githubusercontent.com/108296165/183520698-dd6386f7-9508-4ae7-aea5-392c9474457b.png" width="600" height="400">
 
-### Run SLAM Node
+## Run SLAM Node
 open a new terminal, and type the following commands:
 ```
 $ export TURTLEBOT3_MODEL=burger
